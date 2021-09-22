@@ -507,7 +507,7 @@ box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.9);}
     .testimonials .content {
       padding: 2rem; } } */
   @media screen and (max-width: 736px) {
-    .testimonials > * {
+    /* .testimonials > * {
       width: 100%; }
     .testimonials > * {
       padding: 1rem;
@@ -552,7 +552,14 @@ box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.9);}
       padding-right: 0; }
     .testimonials > :nth-child(1n + 1),
     .testimonials > :nth-child(1n) {
-      width: calc(100% + 1rem); } }
+      width: calc(100% + 1rem); }*/
+.testimonials h4 {
+  font-size: 0.5rem;
+}
+.testimonials h2 {
+  font-size: 1rem;
+}
+    }
 
 
 .icon {
