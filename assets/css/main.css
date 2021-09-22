@@ -506,7 +506,7 @@ box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.9);}
       width: calc(50% + 0rem); }
     .testimonials .content {
       padding: 2rem; } } */
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 786px) {
     /* .testimonials > * {
       width: 100%; }
     .testimonials > * {
@@ -755,7 +755,7 @@ box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.9);}
                 padding-top: 4rem ; }
         }
 
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 786px) {
     #banner {
       height: 35rem !important;
       padding: 4rem 2rem 4rem 2rem; }
