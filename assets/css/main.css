@@ -503,12 +503,9 @@ ul.alt li {
   .button--pan {
     width: 25rem;
   }
-  .button--pan p {
-    display: block;
-  }
-  .menB{
-    padding-bottom: 0rem;
-  }
+    .button--pan p{
+      font-size: .75rem;
+    }
 }
 
 @media screen and (max-width: 686px) {
@@ -687,7 +684,7 @@ ul.alt li {
     .testimonials > :nth-child(1n) {
       width: calc(100% + 1rem); }*/
   .testimonials h4 {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
   }
 
   .testimonials h2 {
@@ -695,11 +692,12 @@ ul.alt li {
   }
 
   .portfolio-box h4 {
-    padding-top: 0px;
+    padding-top: 1rem;
+    font-size: 0.75rem;
   }
 
   .testimonials .carousel-inner {
-    padding: 2rem 10rem;
+    padding: 2rem 5rem;
   }
 }
 
@@ -944,17 +942,17 @@ ul.alt li {
 
   #banner h1 {
     padding-bottom: 4rem;
+    display: inline;
   }
 
   #banner h2 {
-    padding-top: 4rem;
+    padding-top: 20rem;
   }
 }
 
 @media screen and (max-width: 786px) {
   #banner {
     height: 35rem !important;
-    padding: 4rem 2rem 4rem 2rem;
   }
 
   #banner .inner {
@@ -970,12 +968,12 @@ ul.alt li {
   }
 
   .t-bottom {
-    padding-top: 25rem;
+    padding-top: 0rem;
     font-size: 2rem !important;
   }
 
   #banner h1 {
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
     font-size: 3rem !important;
   }
 }
