@@ -764,10 +764,31 @@ box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.9);}
         }
         #banner h1 {
           padding-bottom: 20rem ; }
-          #banner h2 {
-            padding-top: 4rem ; }
+
 
     }
+    @media screen and (max-width: 636px) {
+      #banner {
+        height: 35rem !important;
+        padding: 4rem 2rem 4rem 2rem; }
+        #banner .inner {
+          width: 100%; }
+
+        #banner p {
+          font-size: 1.25rem; }
+        #banner br {
+          display: none; }
+          #banner h2{
+            font-size: 1.5rem;
+            padding-top: 10rem;
+
+          }
+          #banner h1 {
+            padding-bottom: 10rem ;
+          font-size: 3rem;}
+
+
+      }
   @media screen and (max-width: 480px) {
     #banner p {
       font-size: 1rem; }
@@ -775,9 +796,13 @@ box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.9);}
     #banner {
       height: 35rem !important; }
       #banner h1 {
-        padding-bottom: 20rem ; }
+        padding-bottom: 15rem ;
+      font-size: 2rem;}
         #banner h2 {
-          padding-top: 4rem ; }}
+          padding-top: 2rem ;
+          font-size: 1rem;
+        }
+        }
   body.is-preload #banner .inner {
     -moz-transform: scale(0.99);
     -webkit-transform: scale(0.99);
