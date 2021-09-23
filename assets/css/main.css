@@ -540,6 +540,58 @@ ul.alt li {
   }
 }
 
+
+
+ .highlights > * {
+  align-items: ; }
+.highlights > * {
+  padding: 100rem;
+  width: calc(33.3333333333% + 0.6666666667rem); }
+.highlights > :nth-child(-n + 3) {
+  padding-top: 1rem; }
+.highlights > :nth-last-child(-n + 3) {
+  padding-bottom: 1rem; }
+.highlights > :nth-child(3n + 1) {
+  padding-left: 1rem; }
+.highlights > :nth-child(3n) {
+  padding-right: 1rem; }
+.highlights > :nth-child(3n + 1),
+.highlights > :nth-child(3n) {
+  padding: 1rem;
+  }
+.highlights > * {
+  padding: 1rem;
+ }
+.highlights > :nth-child(-n + 2) {
+  padding-top: 0; }
+.highlights > :nth-last-child(-n + 2) {
+  padding-bottom: 0; }
+.highlights > :nth-child(2n + 1) {
+  padding-left: 0; }
+.highlights > :nth-child(2n) {
+  padding-right: 0; }
+.highlights > :nth-child(2n + 1),
+.highlights > :nth-child(2n) {
+  width: calc(50% + 0rem); } */
+/* .link-box {
+  padding: 25rem;
+  } */
+
+  /* .highlights > :nth-child(-n + 3) {
+    padding-top: 0; }
+  .highlights > :nth-last-child(-n + 3) {
+    padding-bottom: 0; }
+  .highlights > :nth-child(3n + 1) {
+    padding-left: 0; }
+  .highlights > :nth-child(3n) {
+    padding-right: 0; }
+  .highlights > :nth-child(3n + 1),
+  .highlights > :nth-child(3n) {
+    width: calc(33.3333333333% + -0.5rem); }
+
+
+
+
 #Skillset {
   padding-top: 100px;
 }
