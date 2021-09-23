@@ -872,14 +872,14 @@ ul.alt li {
   z-index: 1;
 }
 
-/*
+
     @media screen and (min-width: 1280px) {
       #banner .coding-image {
         display: none; filter: blur(2px);}
         #banner {
           height: 55rem !important;
           padding: 4rem 2rem 4rem 2rem; }
-      } */
+      }
 .headerIntro {
   padding-bottom: 2rem;
   padding-top: 2rem;
