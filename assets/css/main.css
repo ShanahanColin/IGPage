@@ -968,7 +968,7 @@ ul.alt li {
   }
 
   .t-bottom {
-    padding-top: 0rem;
+    padding-top: 20rem !important;
     font-size: 2rem !important;
   }
 
