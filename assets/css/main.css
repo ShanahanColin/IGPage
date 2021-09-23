@@ -1043,7 +1043,6 @@ body.is-preload #banner .inner {
 
 /* CTA */
 #cta {
-  background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
   background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/cW5lDBG/glowing-light-blue-abstract-programming-code-background-on-dark-software-or-script-development-concept_rgg0rnttyl_thumbnail-1080_01.png);
@@ -1058,6 +1057,7 @@ body.is-preload #banner .inner {
 @media screen and (max-width: 580px) {
   #cta {
     background-repeat: no-repeat;
+    background-attachment:fixed;
   }
 }
 
