@@ -876,9 +876,7 @@ ul.alt li {
     @media screen and (min-width: 1280px) {
       #banner .coding-image {
         display: none; filter: blur(2px);}
-        #banner {
-          height: 55rem !important;
-          padding: 4rem 2rem 4rem 2rem; }
+
       }
 .headerIntro {
   padding-bottom: 2rem;
@@ -998,11 +996,11 @@ ul.alt li {
 
   #banner h2 {
     font-size: 1.75rem !important;
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
 
   #banner h1 {
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
     font-size: 3rem !important;
     display: inline-block !important;
   }
@@ -1021,7 +1019,7 @@ ul.alt li {
   }
 
   #banner h1 {
-    padding-bottom: 15rem;
+    padding-bottom: 3rem;
     font-size: 2.25rem !important;
   }
 
