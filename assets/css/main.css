@@ -967,7 +967,7 @@ ul.alt li {
 
   .t-bottom {
     padding-top: 20rem !important;
-    font-size: 5rem ;
+    font-size: 2rem ;
   }
 
   #banner h1 {
@@ -1019,13 +1019,14 @@ ul.alt li {
   }
 
   #banner h1 {
-    padding-bottom: 3rem;
-    font-size: 2.25rem !important;
+    padding-bottom: 1rem;
+    font-size: 2.85rem !important;
+    display: inline ;
   }
 
   #banner h2 {
     padding-top: 2rem;
-    font-size: 1.5rem ;
+    font-size: 2rem !important;
   }
 }
 
