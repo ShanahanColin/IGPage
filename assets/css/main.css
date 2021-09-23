@@ -1054,9 +1054,8 @@ body.is-preload #banner .inner {
   z-index: 1;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 980px) {
   #cta {
-    background-repeat: no-repeat;
     background-attachment:local;
   }
 }
