@@ -524,6 +524,9 @@ ul.alt li {
   .highlights button {
     width: 20rem;
   }
+  .button--pan {
+    width: 19rem !important;
+  }
 }
 
 @media screen and (max-width: 386px) {
