@@ -898,16 +898,17 @@ ul.alt li {
   }
 
   #banner {
-    height: 53rem !important;
+    height: 55rem !important;
+
     padding: 4rem 2rem 4rem 2rem;
   }
 
   #banner h1 {
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
   }
 
   #banner h2 {
-    padding-top: 15rem;
+    padding-top: 20rem;
   }
 }
 
@@ -918,8 +919,9 @@ ul.alt li {
   }
 
   #banner {
-    height: 53rem !important;
     padding: 4rem 2rem 4rem 2rem;
+    height: 55rem !important;
+
   }
 
   #banner h1 {
@@ -939,6 +941,7 @@ ul.alt li {
 
   #banner {
     padding: 4rem 2rem 4rem 2rem;
+    height: 55rem !important;
   }
 
   #banner h1 {
