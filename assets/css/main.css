@@ -1292,7 +1292,7 @@ body:before {
     background-image: url("images/StocksSmall.png");
     background-size: cover;
     background-repeat:no-repeat;
-      background-attachment: fixed;
+    background-attachment: scroll;
     display: block;
     position: fixed;
     left: 0;
@@ -1313,7 +1313,7 @@ body:before {
     background-image: url("images/StocksTiny.png");
     background-size: cover;
     background-repeat:no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     display: block;
     position: fixed;
     left: 0;
@@ -1331,7 +1331,7 @@ body:before {
     background-image: url("images/StocksTiny.png");
     background-size: cover;
     background-repeat:no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     display: block;
     position: fixed;
     left: 0;
