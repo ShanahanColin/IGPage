@@ -1286,6 +1286,7 @@ body:before {
 @media screen and (max-width: 1200px) {
   body:before {
     content: '';
+    background-image: url("images/StocksSmall.png");
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -1306,6 +1307,7 @@ body:before {
 @media screen and (max-width: 999px) {
   body:before {
     content: '';
+    background-image: url("images/StocksSmall.png");
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
