@@ -1059,7 +1059,7 @@ body.is-preload #banner .inner {
 
 @media screen and (max-width: 980px) {
   #cta {
-     background-attachment:fixed;
+    background-attachment:scroll;
   }
 }
 
@@ -1071,7 +1071,7 @@ body.is-preload #banner .inner {
 
 @media (hover: none) {
    #cta {
-       background-attachment:fixed;
+       background-attachment:scroll;
    }
 }
 
