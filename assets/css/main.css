@@ -403,7 +403,7 @@ ul.alt li {
 .button {
   pointer-events: auto;
   cursor: pointer;
-  background: #e7e7e7;
+  background: rgba(00, 00, 00, 0.9);
   border: none;
   padding: 1.5rem 3rem;
   margin: 0;
@@ -420,6 +420,8 @@ ul.alt li {
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.6;
+
 }
 
 .button--pan {
@@ -442,12 +444,13 @@ ul.alt li {
 
 .button--pan::before {
   content: '';
-  background: #000;
+  background: #fff;
   transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .button--pan:hover::before {
   transform: translate3d(0, -100%, 0);
+
 }
 
 .highlights {
@@ -898,7 +901,7 @@ ul.alt li {
   }
 
   #banner {
-    height: 53rem !important;
+    height: 65rem !important;
 
     padding: 4rem 2rem 4rem 2rem;
   }
@@ -1291,7 +1294,22 @@ body:before {
     padding-right: 1rem;
   }
 }
-
+@media screen and (max-width: 1400px) {
+  body:before {
+    content: '';
+    background-image: url("images/Stocks.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.125;
+  }
 @media screen and (max-width: 1200px) {
   body:before {
     content: '';
