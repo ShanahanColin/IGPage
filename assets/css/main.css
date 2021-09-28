@@ -28,7 +28,7 @@ body {
   background: #ffffff;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
   -ms-animation: none !important;
@@ -37,7 +37,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -webkit-transition: none !important;
   -ms-transition: none !important;
   transition: none !important;
-}
+} */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -937,7 +937,7 @@ ul.alt li {
   }
 
   #banner {
-    height: 45rem !important;
+    height: 50rem !important;
     padding: 4rem 2rem 4rem 2rem;
   }
 
@@ -1054,10 +1054,16 @@ body.is-preload #banner .inner {
   z-index: 1;
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   #cta {
     background-attachment:local;
   }
+} */
+
+@media (hover: none) {
+   #cta {
+       background-attachment: initial;
+   }
 }
 
 @media screen and (max-width: 580px) {
@@ -1174,7 +1180,7 @@ body:before {
   content: ' ';
   background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   background-attachment: fixed;
   display: block;
   position: fixed;
@@ -1183,7 +1189,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.025;
+  opacity: 0.05;
 }
 
 #header {
@@ -1295,7 +1301,7 @@ body:before {
 }
 
 /* Heading */
-#heading {
+/* #heading {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
@@ -1324,9 +1330,9 @@ body:before {
   position: relative;
   text-align: center;
   width: 100%;
-}
+} */
 
-#heading input, #heading select, #heading textarea {
+/* #heading input, #heading select, #heading textarea {
   color: #ffffff;
 }
 
@@ -1527,7 +1533,6 @@ body:before {
 }
 
 #heading:before {
-  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
   content: ' ';
   display: block;
   height: 100%;
@@ -1549,6 +1554,4 @@ body:before {
   #heading {
     padding: 2rem;
   }
-}
-
-*/
+} */
