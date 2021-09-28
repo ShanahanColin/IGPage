@@ -1301,12 +1301,13 @@ body:before {
 
   #header {
     line-height: 44px;
+    opacity: .8
   }
 }
 @media screen and (max-width: 999px) {
   body:before {
     content: '';
-    background-image: url("images/StocksSmall.png");
+    background-image: url("images/StocksTiny.png");
     background-size: cover;
     background-repeat:no-repeat;
     display: block;
