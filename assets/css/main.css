@@ -1057,11 +1057,11 @@ body.is-preload #banner .inner {
   z-index: 1;
 }
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   #cta {
-    background-attachment:local;
+     background-attachment:fixed;
   }
-} */
+}
 
 /* @media (hover: none) {
    #cta {
