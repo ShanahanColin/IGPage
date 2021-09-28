@@ -12,12 +12,13 @@ body {
 
 @media screen and (max-width: 480px) {
   html, body {
-    /* min-width: 320px; */
+    min-width: 320px;
   }
 }
 
 html {
   box-sizing: border-box;
+
 }
 
 *, *:before, *:after {
@@ -937,7 +938,6 @@ ul.alt li {
   }
 
   #banner {
-    height: 50rem !important;
     padding: 4rem 2rem 4rem 2rem;
   }
 
@@ -1178,7 +1178,11 @@ body {
 
 body:before {
   content: ' ';
-  background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
+  background-image:url("images/stocksUp.png");
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
   background-size: cover;
   background-repeat:repeat-y;
   background-attachment: fixed;
@@ -1285,153 +1289,14 @@ body:before {
 
 @media screen and (max-width: 1200px) {
   body:before {
-    padding-top: 44px;
-    content: ' ';
-    background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.4;
+    background-image: url("images/StocksSmall.png");
+
   }
 
   #header {
-    height: 44px;
     line-height: 44px;
   }
 }
-/* @media screen and (max-width: 999px) {
-  body:before {
-      padding-top: 44px;
-    content: ' ';
-    background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.6;
-  }
-  #header {
-    min-width: 320px;
-  }
-} */
-/* @media screen and (max-width: 699px) {
-  body:before {
-    content: ' ';
-    background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.05;
-  }
-}
-@media screen and (max-width: 599px) {
-  body:before {
-    content: ' ';
-    background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.7;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body:before {
-    content: ' ';
-    background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.7;
-  }
-  #header {
-    min-width: 320px;
-  }
-}
-@media screen and (max-width: 399px) {
-  body:before {
-    content: ' ';
-    background-image: url(https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.7;
-  }
-} */
-
-
-/* Heading */
-/* #heading {
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  background-color: #111111;
-  color: rgba(0, 0, 0, 0.5);
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../images/banner.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top: 0;
-  display: -ms-flexbox;
-  height: 15rem !important;
-  min-height: 15rem;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%;
-} */
 
 /* #heading input, #heading select, #heading textarea {
   color: #ffffff;
