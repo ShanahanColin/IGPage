@@ -1330,14 +1330,14 @@ body:before {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.05;
+    opacity: 0.5;
   }
 
   #header {
     line-height: 44px;
   }
 }
-@media screen and (max-width: 699px) {
+/* @media screen and (max-width: 699px) {
   body:before {
     content: '';
     background-image: url("images/StocksSmall.png");
@@ -1408,10 +1408,8 @@ body:before {
     opacity: 0.05;
   }
 
-  #header {
-    line-height: 44px;
-  }
-}
+
+} */
 
 /* #heading input, #heading select, #heading textarea {
   color: #ffffff;
