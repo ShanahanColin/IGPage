@@ -7,12 +7,12 @@
 }
 
 body {
-  -ms-overflow-style: scrollbar;
+  /* -ms-overflow-style: scrollbar; */
 }
 
 @media screen and (max-width: 480px) {
   html, body {
-    min-width: 320px;
+    /* min-width: 320px; */
   }
 }
 
@@ -86,7 +86,7 @@ table {
 }
 
 body {
-  -webkit-text-size-adjust: none;
+  /* -webkit-text-size-adjust: none; */
 }
 
 mark {
@@ -1034,11 +1034,11 @@ ul.alt li {
 }
 
 body.is-preload #banner .inner {
-  -moz-transform: scale(0.99);
+  /* -moz-transform: scale(0.99);
   -webkit-transform: scale(0.99);
   -ms-transform: scale(0.99);
   transform: scale(0.99);
-  opacity: 0;
+  opacity: 0; */
 }
 
 /* CTA */
@@ -1285,7 +1285,7 @@ body:before {
 
 @media screen and (max-width: 980px) {
   body {
-    padding-top: 44px;
+    /* padding-top: 44px; */
   }
 
   #header {
