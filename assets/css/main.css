@@ -1063,9 +1063,15 @@ body.is-preload #banner .inner {
   }
 } */
 
-@media (hover: none) {
+/* @media (hover: none) {
    #cta {
        background-attachment: initial;
+   }
+} */
+
+@media (hover: none) {
+   #cta {
+       background-attachment:fixed;
    }
 }
 
