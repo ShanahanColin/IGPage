@@ -1088,52 +1088,25 @@ body.is-preload #banner .inner {
   padding: 7% 15%
 }
 
-.btn-footer {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  color: #000000;
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 100;
-  padding: 10px;
-  background-color: #33E9FF;
-  border: solid #000000 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-.btn-footer:hover {
-  color: #FFFFFF;
-  border: dotted #FFFFFF 1px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  box-shadow: 0 0 10px #33E9FF;
-}
+
 
 /* Footer */
 #footer {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.95);
-  ;
-  color: rgba(255,255,255,7);
-  padding: 1rem 0;
+  color: rgba(255,255,255,.45);
+  padding:2rem 0;
 }
 
 #footer p {
   font-size: 1rem;
-    color: rgba(255,255,255,7);
+    color: rgba(255,255,255,.45);
 }
 
 #footer .copyright {
   border-top: 1px solid;
   font-size: 0.8rem;
-  opacity: 0.5;
   padding: 1rem 0 0 0;
   text-align: center;
 }
