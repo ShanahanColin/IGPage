@@ -1119,15 +1119,15 @@ body.is-preload #banner .inner {
 /* Footer */
 #footer {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.95);
   ;
-  color: rgba(0,0,0,.8);
+  color: rgba(255,255,255,7);
   padding: 1rem 0;
 }
 
 #footer p {
   font-size: 1rem;
-    color: rgba(0,0,0,.8);
+    color: rgba(255,255,255,7);
 }
 
 #footer .copyright {
