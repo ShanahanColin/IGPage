@@ -1096,7 +1096,7 @@ body.is-preload #banner .inner {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.95);
   color: rgba(255,255,255,.45);
-  padding:2rem 0;
+  padding:3rem 0 1rem 0;
 }
 
 #footer p {
