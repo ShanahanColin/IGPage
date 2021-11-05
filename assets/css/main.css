@@ -549,12 +549,12 @@ color: aqua;
 
 @media screen and (max-width: 400px) {
   .highlights .content {
-    width: 13rem;
+    width: 15rem;
     height: 4rem;
   }
 
   .highlights button {
-    width: 13rem;
+    width: 15rem;
   }
 
 }
