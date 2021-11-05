@@ -400,6 +400,11 @@ ul.alt li {
 }
 
 /* Highlights */
+
+#new-video{
+color: aqua;
+}
+
 .button {
   pointer-events: auto;
   cursor: pointer;
