@@ -753,24 +753,12 @@ ul.alt li {
 }
 
 /* Banner */
-.back-img {
-  color: black;
-  background-image: url("https://thumbs.gfycat.com/CautiousFatArmedcrab-max-1mb.gif");
-}
-
-.title {
-  color: black;
-}
-
-.t-bottom {
-  padding-top: 8rem;
-}
 
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: white;
+
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -810,12 +798,15 @@ ul.alt li {
 }
 
 #banner h1 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 5rem;
+  display: inline;
+  padding-top: 5rem;
 }
 
-#banner p {
-  font-size: 1.5rem;
+#banner h2 {
+  color: rgba(0, 0, 0, 0.45);
+  font-size:2.5rem;
 }
 
 #banner a {
@@ -823,11 +814,8 @@ ul.alt li {
   text-decoration: none;
 }
 
-#banner a:hover {
-  color: #33E9FF;
-}
 
-#banner .coding-image {
+/* #banner .coding-image {
   -moz-transform: translateX(50%) translateY(50%);
   -webkit-transform: translateX(50%) translateY(50%);
   -ms-transform: translateX(50%) translateY(50%);
@@ -841,9 +829,9 @@ ul.alt li {
   right: 50%;
   width: auto;
   filter: blur(2px);
-}
+} */
 
-#banner:before {
+/* #banner:before {
   -moz-transition: opacity 3s ease;
   -webkit-transition: opacity 3s ease;
   -ms-transition: opacity 3s ease;
@@ -862,10 +850,10 @@ ul.alt li {
   top: 0;
   width: 100%;
   z-index: 1;
-}
+} */
 
 #banner:after {
-  background: linear-gradient(325deg, white 45%, #33E9FF);
+  background: linear-gradient(325deg, rgba(255, 255, 255, 0.75) 55%, #33E9FF);
   content: ' ';
   display: block;
   height: 100%;
@@ -878,163 +866,111 @@ ul.alt li {
   z-index: 1;
 }
 
-
-    @media screen and (min-width: 1280px) {
-      #banner .coding-image {
-        display: none; filter: blur(2px);}
-
-      }
-.headerIntro {
+/* .headerIntro {
   padding-bottom: 2rem;
   padding-top: 2rem;
+} */
+
+.candlestickCol{
+  padding: 10rem 0 5rem 0;
 }
 
-#banner h1 {
-  display: inline;
+.candlesticks{
+width: 12rem;
 }
 
 @media screen and (max-width: 1580px) {
-  #banner .coding-image {
-    display: none;
-    filter: blur(2px);
-  }
 
   #banner {
-    height: 65rem !important;
-
-    padding: 4rem 2rem 4rem 2rem;
-  }
-
-  #banner h1 {
-    padding-bottom: 8rem;
-  }
-
-  #banner h2 {
-    padding-top: 20rem;
+    height: 55rem !important;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  #banner .coding-image {
-    display: none;
-    filter: blur(2px);
-  }
-
   #banner {
-    padding: 4rem 2rem 4rem 2rem;
     height: 50rem !important;
 
-  }
-
-  #banner h1 {
-    padding-bottom: 4rem;
-  }
-
-  #banner h2 {
-    padding-top: 10rem;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  #banner .coding-image {
-    display: none;
-    filter: blur(2px);
-  }
-
-  #banner {
-    padding: 4rem 2rem 4rem 2rem;
-    height: 65rem !important;
-  }
-
-  #banner h1 {
-    padding-bottom: 4rem;
-    display: inline;
-  }
-
-  #banner h2 {
-    padding-top: 15rem;
+  .candlesticks{
+  width: 10rem;
   }
 }
+@media screen and (max-width: 980px) {
 
-@media screen and (max-width: 786px) {
   #banner {
-    height: 35rem !important;
+    height: 45rem !important;
   }
-
-  #banner .inner {
-    width: 100%;
+  #banner h1 {
+    font-size: 4.5rem !important;
   }
-
-  #banner p {
-    font-size: 1.25rem;
+  .candlesticks{
+  width: 8rem;
   }
-
-  #banner br {
-    display: none;
-  }
-
-  .t-bottom {
-    padding-top: 20rem !important;
-    font-size: 2rem !important;
+}
+@media screen and (max-width: 786px) {
+  .candlesticks{
+  width: 7rem;
   }
 
   #banner h1 {
-    padding-bottom: 5rem;
-    font-size: 3rem !important;
+    padding-top: 5rem;
+    font-size: 4rem !important;
   }
+  #banner h2 {
+    font-size: 2rem !important;
+    padding-bottom: 3rem;
+  }
+
 }
 
 @media screen and (max-width: 636px) {
-  #banner {
-    height: 35rem !important;
-    padding: 4rem 2rem 4rem 2rem;
+  .candlesticks{
+  width: 6.5rem;
+  }
+  .candlestickCol{
+    padding: 4rem 0 2rem 0;
   }
 
-  #banner .inner {
-    width: 100%;
+  #banner h1 {
+    font-size: 3.5rem !important;
+    display: inline-block !important;
   }
-
-  #banner p {
-    font-size: 1.25rem;
+  #banner h2 {
+    font-size: 2rem !important;
+    padding-top: 5rem;
   }
+}
 
-  #banner br {
-    display: none;
+@media screen and (max-width: 599px) {
+  #banner h1 {
+    font-size: 3.25rem !important;
+    display: inline;
   }
-
   #banner h2 {
     font-size: 1.75rem !important;
     padding-top: 5rem;
   }
-
-  #banner h1 {
-    padding-bottom: 3rem;
-    font-size: 3rem !important;
-    display: inline-block !important;
-  }
-}
-
-@media screen and (max-width: 565px) {
-  #banner h1 {
-    font-size: 3rem !important;
-    display: inline;
+  .candlesticks{
+  width: 5rem;
   }
 }
 @media screen and (max-width: 493px) {
 
-  #banner {
-    height: 35rem !important;
-  }
 
   #banner h1 {
-    padding-bottom: 1rem;
     font-size: 2.25rem !important;
-    display: inline ;
   }
 
   #banner h2 {
-    padding-top: 2rem;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 432px) {
+  .candlesticks{
+  width: 4rem;
   }
 }
 
