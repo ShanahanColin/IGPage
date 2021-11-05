@@ -522,7 +522,15 @@ color: aqua;
     height: 4rem;
   }
 }
-
+@media screen and (max-width: 547px) {
+  .highlights .content {
+    width: 22rem;
+    height: 4rem;
+  }
+  .highlights button {
+    width: 22rem;
+  }
+}
 @media screen and (max-width: 486px) {
   .highlights .content {
     width: 20rem;
