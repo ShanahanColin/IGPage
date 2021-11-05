@@ -533,27 +533,25 @@ color: aqua;
 }
 @media screen and (max-width: 486px) {
   .highlights .content {
-    width: 15rem;
     height: 4rem;
   }
 
   .highlights button {
-    width: 15rem;
+    width: 20rem;
   }
-  .button--pan {
+  /* .button--pan {
     width: 19rem !important;
-  }
+  } */
 
 }
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 400px) {
   .highlights .content {
-    width: 10rem;
     height: 4rem;
   }
 
   .highlights button {
-    width: 10rem;
+    width: 15rem;
   }
 
 }
